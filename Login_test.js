@@ -4,8 +4,8 @@ Scenario('test something', async ({ I }) => {
     I.amOnPage('/');
     I.see('Olá, futuro residente!');
     I.waitForElement('#email');
-    I.fillField('#email', 'paulo.barros@codengage.com');
-    I.fillField('#password', '123456');
+    I.fillField('#email', 'paulo.barros+16@codengage.com');
+    I.fillField('#password', 'sanar123');
     I.click('button[type=submit]');
     I.click({ css: '[data-testid=menu-initial-button]'});
     I.click({ css: '[data-testid=rm-menu__go-to--account]'});
